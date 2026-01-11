@@ -1,9 +1,10 @@
-<!DOCTYPE html>
+DOCTYPE html>
 <html lang="ar">
 <head>
 <meta charset="UTF-8">
-<title>SINMAR+ | Movies</title>
+<title>SINMAR+ | الأفلام</title>
 <link rel="stylesheet" href="style.css">
+<script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
 </head>
 <body>
 
@@ -13,6 +14,9 @@
 </header>
 
 <div id="movies" class="grid"></div>
+
+<!-- مشغل الفيديو -->
+<video id="player" controls width="100%" style="margin-top:20px;" autoplay></video>
 
 <script src="app.js"></script>
 <script>loadData('movies');</script>
