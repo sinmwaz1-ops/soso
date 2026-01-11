@@ -9,3 +9,4 @@ header a { color:white; text-decoration:none; }
 .card { background:#1a1a22; padding:15px; border-radius:12px; cursor:pointer; transition:.3s; text-align:center; }
 .card img { width:100%; border-radius:8px; margin-bottom:5px; }
 .card:hover { transform:scale(1.05); }
+video { border-radius:12px; background:black; }
